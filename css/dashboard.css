@@ -1,0 +1,232 @@
+/*
+ * Base structure
+ */
+/* Move down content because we have a fixed navbar that is 50px tall */
+i{
+	padding-right:8px;
+}
+
+#home{
+  font-family: Arial;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+
+.alert{
+    clear:both;
+}
+body{
+	background-color:#f8f8f8;
+}
+.container{
+	width:100%;
+	max-width:1366px;
+}
+.conteudo{
+	height:auto;
+	background: #FFFFFF;
+  min-height: 700px;
+}
+.corpo{
+  background:#FFFFFF;
+	padding:10px;	
+}
+.grupo{	
+	margin:0;
+	padding-left:0px;
+	line-height:25px;
+}
+.grupo li{
+	list-style-type: none;
+}
+.grupo li a{
+	color:#000000;
+}
+
+
+.logo_empresa{
+	height: auto;
+	margin:20px auto;
+}
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+.navbar ul li{
+	padding:0px 5px;
+}
+
+/*
+ * Sidebar
+ */
+/* Hide for mobile, show later */
+.sidebar {
+ display: none;
+ width:10%;
+ min-width:200px;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 2px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+
+@media (min-width: 768px) {
+  .main {
+  	background:yellow;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+
+placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+
+
+
+.caixa_campos{
+	border:1px solid #666666;
+	clear: both;
+}
+.nome_campo{	
+	padding-right:10px;
+}
+.campo{
+
+float:right;
+}
+.endereco_cliente{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    height: 35px;
+}
+
+
+.botao{
+    text-align: center;
+}
+
+.linha_table_pesquisa{
+
+   line-height: 25px;
+}
+
+.nome_coluna{
+    text-align: center;
+}
+
+.resp_cliente{    
+    color:#ff0000;
+    text-align: center;
+    width: 100%;
+}
+
+.nome_menu{
+    font-size: 16px;
+}
+
+
+.wizard{
+    text-align:     center;
+    line-height:    35px;
+}
+.upload_fotos{
+	text-align: center;
+
+}
+.upload_fotos{
+	width:850px;
+	text-align:center;
+	margin:0 auto;
+}
+
+.panel-title{
+	font-size:16px;
+}
+.item_menu_admin{
+color:#FFFFFF;
+}
+.wizard{
+	background:#f8f8f8;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	margin-right:10px;
+}
+
+.wativo{
+	font-weight:bold;
+	background:#048CAD;
+	color:#FFFFFF;	
+}
+.wsativo{
+	font-weight:bold;
+	color:#79BB2C;	
+}
